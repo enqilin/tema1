@@ -1,5 +1,5 @@
 import os 
-
+import run
 
 def iniciar():
     while True:

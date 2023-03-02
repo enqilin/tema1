@@ -15,3 +15,6 @@ El programa deberá devolver una descomposición línea a línea como la siguien
 0600
 
 3000"""
+
+def descomposion():
+    

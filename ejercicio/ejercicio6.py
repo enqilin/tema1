@@ -22,8 +22,7 @@ def separar(lista):
             lista2.sort()
         else:
             lista1.append(n)
-            lista1.sort()
-            
+            lista1.sort()            
     print("los números impares son: ", lista1,"los números pares son: ",lista2)
 
 separar(numero)

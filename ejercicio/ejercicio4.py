@@ -8,3 +8,7 @@ Para ordenar automáticamente una lista es posible utilizar el método .sort(), 
 
 
 elementos = [1, 5, -2]
+
+def orden(valor):
+    valor=valor.sort()
+    

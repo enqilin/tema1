@@ -1,4 +1,3 @@
-
 import os
 import platform
 
@@ -9,7 +8,6 @@ def limpiar_pantalla():
 def leer_texto(longitud_min=0,longitud_max=20,mensaje=None):
     print(mensaje) if mensaje else  None
     while True:
-        texto= inpur("> ")
+        texto= input("> ")
         if len(texto)>=longitud_min and len(texto)<=longitud_max:
             return texto
-        

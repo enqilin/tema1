@@ -1,6 +1,5 @@
-import os
-import run
-import ejercicio
+import helpers
+import ejercicio as *
 
 def iniciar():
     while True:
@@ -17,7 +16,7 @@ def iniciar():
         print("================")
 
         option= input ("> ")
-        os.system("clear")
+        helpers.system("clear")
         if option==1:
             print("Ejercicio 1 \n")
             for numero1 in ejercicio/ejercicio1:

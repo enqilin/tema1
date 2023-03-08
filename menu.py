@@ -1,8 +1,8 @@
 import helpers
 from ejercicio import ejercicio1 as E1
 from ejercicio import ejercicio2 as E2
-from ejercicio import ejercicio3 as E4
-from ejercicio import ejercicio4 as E5
+from ejercicio import ejercicio3 as E3
+from ejercicio import ejercicio4 as E4
 from ejercicio import ejercicio6 as E6
 from ejercicio import ejercicio7 as E7
 from ejercicio import descomposion as dc
@@ -28,38 +28,38 @@ def iniciar():
 
         if option==1:
             print("Ejercicio 1\n")
-            for numero1 in :
-                print(numero1)
+            numero1=E1.Alumno
+            print(numero1)
         
         elif option==2:
             print("Ejercicio 2\n")
-            for numero2 in ejercicio/ejercicio2:
-                print(numero2)
+            numero2=E2.calculo
+            print(numero2)
 
         elif option==3:
             print("Ejercicio 3 \n")
-            for numero2 in ejercicio/ejercicio3:
-                print(numero2)
+            numero3=E3.lista_3
+            print(numero3)
         
         elif option==4:
             print("Ejercicio 4 \n")
-            for numero2 in ejercicio/ejercicio4:
-                print(numero2)
+            numero4=E4.orden
+            print(numero4)
 
         elif option==5:
             print("Ejercicio 5 \n")
-            for numero2 in ejercicio/ejercicio5:
-                print(numero2)
+            numero5=dc.descomposion
+            print(numero5)
 
         elif option==6:
             print("Ejercicio 6 \n")
-            for numero2 in ejercicio6.separar:
-                print(numero2)
+            numero6=E6.separar
+            print(numero6)
 
         elif option==7:
             print("Ejercicio 7 \n")
-            for numero2 in ejercicio/ejercicio7:
-                print(numero2)
+            numero7=E7.agregar_una_vez
+            print(numero7)
         elif option==8:
             print("salir de ejercicio")
             break

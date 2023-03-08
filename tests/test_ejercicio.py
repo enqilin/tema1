@@ -12,7 +12,7 @@ from ejercicio import descomposion as de
 class TestEjercicio(unittest.TestCase):
 
     def test_ejercicio1(self):
-        nombre_nota= E1.Alumno("zeréP nauJ,01")
+        nombre_nota= E1.Alumno
         self.assertEqual(nombre_nota,"Juan Péraz ha sacado 10 de nota")
 
     def test_ejercicio2(self):

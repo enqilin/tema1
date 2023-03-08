@@ -10,7 +10,9 @@ print(impares)
 
 Sugerencia
 
-Para ordenar una lista automáticamente puedes utilizar el método .sort()."""
+Para ordenar una lista automáticamente puedes utilizar el método .sort().
+"""
+
 numero=[6,5,2,1,7]
 
 def separar(lista):
@@ -22,7 +24,10 @@ def separar(lista):
             lista2.sort()
         else:
             lista1.append(n)
-            lista1.sort()            
-    print("los números impares son: ", lista1,"los números pares son: ",lista2)
+            lista1.sort()
+        
+    return print("los números impares son: ", lista1,"los números pares son: ",lista2)
 
-separar(numero)
+
+if __name__=="__main__":
+    separar(numero)

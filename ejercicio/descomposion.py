@@ -16,5 +16,12 @@ El programa deberá devolver una descomposición línea a línea como la siguien
 
 3000"""
 
-def descomposion():
-    
+def descomposion(num):
+
+    numero=int(num)
+    numero=list(numero)
+    numero=numero[::-1]
+    for i in range(numero):
+        return("{} {} {} ".format(len(numero)-len(i), i ,i*0))
+        
+

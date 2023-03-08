@@ -9,21 +9,21 @@ cadena = "zeréP nauJ,01"
 
 
 
-cadenaa ="zeréP nauJ,01"
+cadena ="zeréP nauJ,01"
 
 
 
 class Alumno:
 
-    def __init__(self, cadena):
-        self.cadena=cadena
-
-    def slicing(self):
+    def __init__(self, caden):
+        self.caden=caden
+        
         lista=[]
-        lista= cadena.split(",")
+        lista= self.caden.split(",")
         nota=lista[1]
         nombre=lista[2]
-        return nota, nombre
+        self.nota=nota
+        self.nombre=nombre
 
-    def representar(self):
-        return nombre,"ha sacado un ", nota , " de nota."
+    def __str__(self):
+        return "{} ha sacado un {} de nota".format(self.nombre,self.nota)

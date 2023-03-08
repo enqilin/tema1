@@ -10,5 +10,13 @@ Para ordenar automáticamente una lista es posible utilizar el método .sort(), 
 elementos = [1, 5, -2]
 
 def orden(valor):
+    tarea=[]
     valor=valor.sort()
+    for i, n in enumerate(valor):
+        tarea.append(n)
+    return tarea
+
+
+
+        
     

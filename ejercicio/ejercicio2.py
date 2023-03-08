@@ -19,11 +19,12 @@ def numero_usuario():
         else:
             pass
     except:
-        raise ValueError("El carácter no es válido", file=sys.stderr)
+        numero=input("Introduce de nuevo de nº 1~9: ")
 
 def calculo(numero_usuario):
-    multi=numero_usuario*9
+    multi=numero_usuario * 9
     final=multi*numero_magico
-    return final
+    return print(final)
 
-numero_usuario()
+if __name__=="__main__":
+    calculo(numero_usuario())
